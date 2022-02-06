@@ -1,8 +1,10 @@
-.App{
-    height: 100vh;
+.NftDesign{
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.NftDesign img{
+    width: 100%;
 }
