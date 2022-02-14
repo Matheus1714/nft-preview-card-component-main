@@ -1,0 +1,7 @@
+.UserImg img{
+    width: 40px;
+    border: solid;
+    border-width: 2px;
+    border-color: var(--neutral-white);
+    border-radius: 50%;
+}
