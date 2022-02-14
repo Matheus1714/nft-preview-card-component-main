@@ -1,4 +1,6 @@
 import { Component } from "react"
+import './NftCard.css'
+
 import Footer from '../components/Footer'
 import Card from '../components/Card'
 import NftDesign from '../components/NftDesign'
