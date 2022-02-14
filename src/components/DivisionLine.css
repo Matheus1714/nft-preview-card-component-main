@@ -1,0 +1,6 @@
+.DivisionLine{
+    height: 1px;
+    width: 100%;
+    border-radius: 0.5px;
+    background-color: var(--neutral-white);
+}
