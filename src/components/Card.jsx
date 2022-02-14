@@ -1,9 +1,13 @@
 import './Card.css'
 
+import Container from './Container'
+
 export default (props) => {
     return (
         <div className="Card">
-            {props.children}
+            <Container>
+                {props.children}
+            </Container>
         </div>
     )
 }
