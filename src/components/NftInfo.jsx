@@ -1,5 +1,8 @@
 import './NftInfo.css'
 
+import UserImg from './UserImg'
+import DivisionLine from './DivisionLine'
+
 export default (props) => {
     const title = props.title
     const serie = props.serie
@@ -16,7 +19,11 @@ export default (props) => {
             <p>{description}</p>
             <p>{cryptoValue} {typeMoney}</p>
             <p>{datePost} days left</p>
-            <img src={userImg} alt="user" />
+
+            <DivisionLine />
+
+            
+            <UserImg img={userImg} />
             <p>Creation of {userName}</p>
         </div>
     )
